@@ -2,9 +2,12 @@ const {Router} = require("express");
 
 const router = Router();
 
-const {firstTest, secondTest} = require('../controllers/index.controller');
+const {obtenerPeliculas, obtenerPeliculaPorId, editarPelicula, agregarPelicula, borrarPelicula} = require('../controllers/index.controller');
 
-router.get("/test", firstTest);
-router.get("", secondTest)
+router.get("/obtenerPeliculas", obtenerPeliculas);
+router.get("/obtenerPeliculaPorId", obtenerPeliculasPorId);
+router.post("/agregarPelicula", agregarPelicula);
+router.delete("/borrarPelicula", borrarPelicula);
+router.put("/editarPelicula", editarPelicula);
 
 module.exports = router;

@@ -1,20 +1,23 @@
 const indexController = {};
 
-indexController.firstTest = (req, res) => {
-    const data  = {
-        "name" : "samuel",
-        "website" : "samuel.com",
-        "age" : 25,
-        "lastName" : "Bustamante",
-    };
-
-    res.json(data);
+indexController.obtenerPeliculas = (req, res) => {
+    
 };
 
-indexController.secondTest = (rqe, res) => {
-    res.json({
-        "name" : "segunda prueba",
-    });
-}
+indexController.obtenerPeliculaPorId = (req, res) => {
+
+};
+
+indexController.agregarPelicula = (req, res) => {
+    
+};
+
+indexController.borrarPelicula = (req, res) => {
+
+};
+
+indexController.editarPelicula = (req, res) => {
+
+};
 
 module.exports = indexController;

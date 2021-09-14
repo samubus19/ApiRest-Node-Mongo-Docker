@@ -20,4 +20,5 @@ indexController.editarPelicula = (req, res) => {
 
 };
 
+
 module.exports = indexController;

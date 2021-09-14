@@ -15,6 +15,7 @@ app.use(express.json());
 
 //routes
 app.use(require('./routes/pelicula.routes'));
+app.use(require('./routes/autenticacion.routes'));
 
 
 module.exports = app;

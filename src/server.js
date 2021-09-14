@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended : false}));
 app.use(express.json());
 
 //routes
-app.use(require('./routes/index.routes'));
+app.use(require('./routes/pelicula.routes'));
 
 
 module.exports = app;

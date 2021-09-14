@@ -20,5 +20,11 @@ indexController.editarPelicula = (req, res) => {
 
 };
 
+indexController.testjwt = (req, res) => {
+    res.json({
+        mensaje : "node js y JWT"
+    });
+};
+
 
 module.exports = indexController;

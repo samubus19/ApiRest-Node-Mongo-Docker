@@ -2,7 +2,7 @@ const request = require('supertest');
 const app     = require('../src/server');
 
 /*
-Testing get all users
+Testing endpoints
 */
 describe("GET /obtenerPeliculas", () => {
     it('Responde un json con todas las peliculas', done => {

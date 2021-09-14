@@ -1,6 +1,10 @@
 const autenticacionController = {};
 
-autenticacionController.getToken = (req, res) => {
+autenticacionController.crearUsuario = (req, res) => {
+
+}
+
+autenticacionController.autenticarUsuario = (req, res) => {
 
 }
 

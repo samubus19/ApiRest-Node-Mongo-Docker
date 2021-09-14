@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test" : "mocha tests/api.test.js",
+    "test": "mocha tests/api.test.js",
     "start": "nodemon -L src/index.js"
   },
   "keywords": [],
@@ -20,6 +20,7 @@
     "mocha": "^9.1.1",
     "mongoose": "^6.0.2",
     "morgan": "^1.10.0",
+    "puppeteer": "^10.2.0",
     "supertest": "^6.1.6"
   },
   "devDependencies": {

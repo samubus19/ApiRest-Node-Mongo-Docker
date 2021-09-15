@@ -1,33 +1,32 @@
 const indexController = {};
 
 indexController.obtenerPeliculas = (req, res) => {
-    return res.json({
-        mensaje : "Obtener todas las peliculas"
+    res.status(201).json({
+            mensaje: "Obtener todas las peliculas",
     });
 };
 
 indexController.obtenerPeliculaPorId = (req, res) => {
-    return res.json({
-        mensaje : "Obtener pelicula por ID"
+    res.status(201).json({
+            mensaje: "Obtener pelicula por Id",
     });
 };
 
 indexController.agregarPelicula = (req, res) => {
-    return res.json({
-        mensaje : "Agregar pelicula"
+    res.status(201).json({
+            mensaje: "Agregar pelicula",
     });
 };
 
 indexController.borrarPelicula = (req, res) => {
-    return res.json({
-        mensaje : "Borrar pelicula"
+    res.status(201).json({
+            "mensaje" : "Borrar pelicula",
     });
 };
 
 indexController.editarPelicula = (req, res) => {
-    return res.json({
-        mensaje : "Editar pelicula"
-    });
+    res.setHeader("Content-Type", "application/json;charset=utf-8");
+    res.status(201).json("Editar pelicula");
 };
 
 

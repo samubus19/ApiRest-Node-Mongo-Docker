@@ -27,6 +27,7 @@ console.time('prueba');
                 imgUrl : document.querySelector('img').getAttribute("src"),
                 genero : document.querySelector('.AAIco-adjust a').innerHTML,
                 director : document.querySelector('.AAIco-adjust span').innerHTML,
+                sinopsis : document.querySelector('.Description p').innerHTML,
             }
             return pelicula;
         });

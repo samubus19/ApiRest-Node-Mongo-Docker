@@ -11,7 +11,6 @@ const PeliculaSchema = new Schema({
     },
     URL_Imagen: {
         type: String,
-        required: true
     },
     genero: {
         type: String,

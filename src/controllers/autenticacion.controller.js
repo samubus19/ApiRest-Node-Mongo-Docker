@@ -15,7 +15,7 @@ autenticacionController.crearUsuario = async (req, res) => {
         SECRET_KEY, 
         {expiresIn : '3600s'},
         (err, token) => {
-            res.json(
+            res.status(200).json(
                 token
             );
         });
@@ -37,7 +37,7 @@ autenticacionController.autenticarUsuario = async (req, res) => {
     const token = jwt.sign({ id: usuario._id }, SECRET_KEY, {
         expiresIn: '2600s',
       });
-      res.status(200).json({ auth: true, token });
+      res.status(200).send(token);
 }
 
 

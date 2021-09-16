@@ -1,9 +1,10 @@
+const mongoose = require('mongoose');
 const puppeteer = require('puppeteer');
+const Pelicula  = require('./models/Pelicula');
+const funcion = {};
 
-console.time('prueba');
+funcion.ejecutarBot = async () => {
 
-
-(async() => {
     const browser = await puppeteer.launch({headless: true});
     const page    = await browser.newPage();
     await page.goto('https://cuevana3.io/');
@@ -17,23 +18,33 @@ console.time('prueba');
         return links;
     });
 
-    //funcion para obtener el enlace de cada reproductor
-    for (const enlace of enlaces) {
+    const listaPeliculas = [];
+
+    // funcion para obtener el enlace de cada reproductor
+    for (enlace of enlaces) {
         await page.goto(enlace);
         //console.log(enlace);
-        const peliculas = await page.evaluate(() => {
-            const pelicula = {
-                nombre : document.querySelector('.Title').innerHTML,
-                imgUrl : document.querySelector('img').getAttribute("src"),
-                genero : document.querySelector('.AAIco-adjust a').innerHTML,
-                director : document.querySelector('.AAIco-adjust span').innerHTML,
-                sinopsis : document.querySelector('.Description p').innerHTML,
-            }
-            return pelicula;
+        const pelicula = await page.evaluate(() => {
+            
+            const nuevaPelicula = {
+                nombre     : document.querySelector('.Title').innerHTML,
+                director   : document.querySelector('.AAIco-adjust span').innerHTML,
+                URL_Imagen : document.querySelector('img').getAttribute("src"),
+                genero     : document.querySelector('.AAIco-adjust a').innerHTML,
+                sinopsis   : document.querySelector('.Description p').innerHTML,
+            };
+            
+            return nuevaPelicula;
         });
-        await console.log(peliculas);
-    }
 
+        listaPeliculas.push(pelicula);
+        
+    }
+    // await console.log(listaPeliculas);
     await browser.close();
-    console.timeEnd('prueba');
-})();
+    return listaPeliculas;
+}
+
+
+
+module.exports = funcion;

@@ -1,32 +1,43 @@
 const indexController = {};
+const puppeteer       = require('puppeteer');
+const {ejecutarBot}   = require('../bot-scrapper');
+const Pelicula        = require('../models/Pelicula');
 
 indexController.obtenerPeliculas = (req, res) => {
-    res.status(201).json({
+    res.status(200).json({
             mensaje: "Obtener todas las peliculas",
+            token : req.token
     });
 };
 
 indexController.obtenerPeliculaPorId = (req, res) => {
-    res.status(201).json({
+    res.status(200).json({
             mensaje: "Obtener pelicula por Id",
     });
 };
 
-indexController.agregarPelicula = (req, res) => {
-    res.status(201).json({
-            mensaje: "Agregar pelicula",
-    });
+indexController.agregarPelicula = async (req, res) => {
+
+    const peliculas = await ejecutarBot();
+
+    for(pelicula of peliculas) {
+         console.log(pelicula);
+    }
+    
+    
+
 };
 
 indexController.borrarPelicula = (req, res) => {
-    res.status(201).json({
+    res.status(200).json({
             "mensaje" : "Borrar pelicula",
     });
 };
 
 indexController.editarPelicula = (req, res) => {
-    res.setHeader("Content-Type", "application/json;charset=utf-8");
-    res.status(201).json("Editar pelicula");
+    res.status(200).json({
+        mensaje : "Editar pelicula"
+    });
 };
 
 

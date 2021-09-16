@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
+const mongoose  = require('mongoose');
 const puppeteer = require('puppeteer');
 const Pelicula  = require('./models/Pelicula');
-const funcion = {};
+const funcion   = {};
 
 funcion.ejecutarBot = async () => {
 

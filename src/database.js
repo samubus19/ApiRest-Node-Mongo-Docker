@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose    = require('mongoose');
 const MongoClient = require('mongodb').MongoClient;
 
 const {NOTES_APP_MONGODB_HOST, NOTES_APP_MONGODB_DATABASE} = process.env;

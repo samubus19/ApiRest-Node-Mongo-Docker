@@ -1,303 +1,317 @@
-  [
-    {
-    "nombre": "God You’re Such A Prick",
-    "director": "André Erkau, Dorothea Popovic, Holger Hage",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+[
+  {
+    "nombre": "La Chica Que Mato A Sus Padres",
+    "director": "Maurício Eça",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/431b5h5omOds3fPImxWl982bWgp.jpg",
+    "genero": "Crimen",
+    "sinopsis": "Thriller psicológico sobre los asesinatos reales de Manfred y Marísia von Richthofen orquestado por su propia hija, Suzane, junto con su novio y cuñado, los hermanos Cravinhos."
+  },
+  {
+    "nombre": "A todo tren: destino Asturias",
+    "director": "Santiago Segura, Sara Mazkiarán",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/wEbBaFX7DBSrv0GbLvJFZXQ7Sdw.jpg",
     "genero": "Comedia",
-    "sinopsis": "Basado en una historia real. Steffi, de 16 años, acaba de graduarse de la escuela secundaria y está ansiosa por su viaje de estudios a París, donde le ha prometido a su novio Fabián la noche romántica que lo ha hecho esperar desde que comenzaron a salir. Su plan de por vida para unirse a las fuerzas policiales ya está establecido, lo que significa que su vida adulta está a la vuelta de la esquina. En un chequeo médico de rutina, justo antes del viaje a París, Steffi y sus padres se enfrentan a un diagnóstico demoledor: un cáncer incurable con una esperanza de vida de menos de un año. Mientras que su madre Eva inmediatamente intenta proteger a Steffi sin poder hacer nada, por no hablar de un viaje escolar a París y su padre Frank, un sacerdote protestante, cuestiona todo en lo que él alguna vez creyó, pero Steffi está decidida a deshacerse de su destino condenado."
+    "sinopsis": "Cuando Ricardo, un padre responsable, decide llevar personalmente a su hijo a un campamento en Asturias, otros padres proponen que sea él quien se haga cargo también de sus hijos. Cuando el tren está a punto de partir, Felipe, un extravagante individuo y abuelo de dos de los niños, se presenta en la estación."
   },
   {
-    "nombre": "The Marksman (El protector)",
-    "director": "Robert Lorenz",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "Black Site",
+    "director": "Tom Paton",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/kXaSLb7reKixWqujYqV8R4XybGo.jpg",
     "genero": "Acción",
-    "sinopsis": "Un ranchero en la frontera de Arizona se convierte en el improbable defensor de un joven mexicano que huye desesperadamente de los asesinos del cartel que lo han perseguido hasta Estados Unidos."
+    "sinopsis": "Una unidad militar de élite se encuentra con una entidad sobrenatural, conocida como The Elder Gods, que los obliga a luchar contra un ejército de otro mundo."
   },
   {
-    "nombre": "Best Sellers",
-    "director": "Lina Roessler",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "Blunderpuss",
+    "director": "Shaina Feinberg",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/9FninVk177YifRzNQGXiLqTp171.jpg",
     "genero": "Comedia",
-    "sinopsis": "Un autor jubilado y cascarrabias se embarca a regañadientes en una última gira de libros para ayudar a un joven editor."
+    "sinopsis": "Mike Bruton es un payaso con problemas de alcoholismo. En serio: un auténtico payaso. Ansioso por continuar donde lo dejó tras una temporada en rehabilitación, Mike se sube a su monociclo y emprende una gira de disculpas, que comienza con una visita a la casa de su infancia en Nueva Jersey y termina en Brooklyn. Mike no tarda en darse cuenta de que no todo el mundo está dispuesto a perdonarle y que su mejor apuesta para una vida en recuperación es empezar de a poco."
   },
   {
-    "nombre": "Butter",
-    "director": "Paul A. Kaufman",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Comedia",
-    "sinopsis": "Un solitario niño obeso al que todos llaman “Butter” está a punto de hacer historia. Va a comerse a sí mismo hasta la muerte -en directo en Internet- y todo el mundo está invitado a verlo."
-  },
-  {
-    "nombre": "Prisoners of the Ghostland",
-    "director": "Sion Sono",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Acción",
-    "sinopsis": "En la traicionera frontera de la ciudad de Samurai Town, un ladrón de bancos sin escrúpulos (Nicolas Cage) es liberado de la cárcel por un pudiente señor de la guerra conocido como The Governor (Bill Moseley) para que encuentre a Bernice (Sofia Boutella), su nieta adoptiva, que desaparecido sin dejar rastro. Para garantizar que cumpla su palabra, el ladrón es obligado a llevar puesto un traje de cuero que se autodestruirá en un periodo de cinco días. En su aventura buscará no sólo encontrar a la chica, sino también redimirse de sus pecados."
-  },
-  {
-    "nombre": "Shelter in Place",
-    "director": "Chris Beyrooty, Connor Martin",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Terror",
-    "sinopsis": "Cuando una pandemia mundial limita la posibilidad de viajar, una pareja en luna de miel se queda varada en el Hotel Hollywood Roosevelt, donde un esqueleto de dos empleados los atiende. A medida que las tensiones se intensifican en medio de un cierre forzoso, se hace evidente que hay algo más que temer en el histórico hotel que la simple fiebre de cabina."
-  },
-  {
-    "nombre": "El poder del perro",
-    "director": "Jane Campion",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Drama",
-    "sinopsis": "Los acaudalados hermanos Phil (Cumberbatch) y George Burbank (Plemons) son las dos caras de la misma moneda. Phil es elegante, genial y cruel, mientras George es impasible, quisquilloso y amable. Juntos son copropietarios de un enorme rancho en Montana. Es un lugar la rápida modernización del siglo XX se mantiene y en el que la figura de Bronco Henry, el mayor cowbow que Phil ha conocido jamás, es venerado. Cuando George se casa en secreto con una viuda del pueblo, Rose (Dunst), Phil, sorprendido y furioso, lleva a cabo una guerra sádica e implacable para destruirla por completo usando a su afeminado hijo, Peter, como peón."
-  },
-  {
-    "nombre": "Together",
-    "director": "Justin Martin, Stephen Daldry",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Drama",
-    "sinopsis": "Una pareja se ve obligada a reevaluarse a sí mismos y a su relación, a través de la realidad del encierro, durante la pandemia de COVID-19."
-  },
-  {
-    "nombre": "What She Said",
-    "director": "Amy Northup",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Drama",
-    "sinopsis": "Cuando Sam decide retirar los cargos contra su violador, sus amigos y hermanos se reúnen para organizar una intervención en Acción de Gracias."
-  },
-  {
-    "nombre": "Dos policías rebeldes II",
-    "director": "Jane Goldsmith, Joe Lotito, John G. Scotti, Michael Bay, Robert Consing, Rudy Persico",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Acción",
-    "sinopsis": "En esta nueva aventura, los detectives de narcóticos de Miami, Mike Lowrey (Will Smith) y Marcus Burnett (Martin Lawrence), son asignados para formar parte de un equipo de alta tecnología que trata de destapar la trama del diseño de éxtasis en Miami. Pero inconscientemente descubren una conspiración mortal que involucra a un despiadado señor de la droga, Johnny Tapia (Jordi Mollà), que está decidido a expandir su imperio y tomar el control del negocio de la venta de narcóticos en la ciudad matando a cualquiera que se interponga en su camino. Para empeorar las cosas, la bella hermana de Marcus, Syd (Gabrielle Union), una agente infiltrada de la DEA, se queda atrapada en el fuego cruzado, forzando a nuestros héroes a situarse al límite de la ley. Todo se complica todavía más cuando Cupido empieza a sobrevolar sobre Mike y Syd, provocando las iras de su protector hermano."
-  },
-  {
-    "nombre": "Dos policías rebeldes",
-    "director": "Barry H. Waldman, Bruce Moriarty, Corey B. Yugler, Jeffrey T. Barabe, Jonathan Watson, Kenny Bates, Lisandra Soto, Michael Bay, Michelle Marx, Peter Lyons Collister",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Acción",
-    "sinopsis": "Un alijo de heroína valorada en unos 100 millones de dólares es robado del mismísimo depósito de la policía. El caso le será asignado a los agentes Burnett y Lowery, una pareja muy peculiar por los métodos que utilizan. La única pista que tienen para comenzar es la de un testigo que les ayudará a identificar a los atracadores y a la que tendrán que proteger."
-  },
-  {
-    "nombre": "Todo por mi hija",
-    "director": "Eric Zaragoza, Prarthana Mohan",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Drama",
-    "sinopsis": "Después de años intentando quedarse embarazada, Ani consigue su sueño. Pero cuando se le diagnostica una dolencia mortal, buscará el apoyo de su familia para salvar el nacimiento de su hija."
-  },
-  {
-    "nombre": "Borrar el historial",
-    "director": "Benoît Delépine, Gerard Bonnet, Gustave Kervern",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Comedia",
-    "sinopsis": "Tres vecinos de un suburbio se ven superados por sus problemas con la tecnología y las redes sociales. Con la ayuda de un pirata informático, deciden declarar la guerra a los poderosos gigantes tecnológicos. Tal vez su batalla esté perdida desde el principio, pero nunca se sabe."
-  },
-  {
-    "nombre": "Hermanos de sangre: Malcolm X y Muhammad Ali",
-    "director": "Marcus A. Clarke",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Biográfia",
-    "sinopsis": "La desconfianza y sus diferentes ideales hacen mella en el vínculo entre Malcolm X y Muhammad Ali, que empezó con un encuentro fortuito y acabó con una trágica disputa."
-  },
-  {
-    "nombre": "Catch the Bullet",
-    "director": "Michael Feifer",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Western",
-    "sinopsis": "El alguacil Britt MacMasters regresa de una misión y encuentra a su padre herido y a su hijo secuestrado por el forajido Jed Blake. Siguiendo su pista, Britt forma un pelotón con un ayudante de sheriff y un estoico rastreador Pawnee. Pero Jed y Britt se acercan peligrosamente al territorio Sioux del Desierto Rojo."
-  },
-  {
-    "nombre": "Dragon Fury",
-    "director": "Scott Jeffrey",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Fantasía",
-    "sinopsis": "Un equipo de expertos viaja a lo profundo de las montañas para encontrar una criatura peligrosa."
-  },
-  {
-    "nombre": "Straight Outta Nowhere: Scooby-Doo! Meets Courage the Cowardly Dog",
-    "director": "Cecilia Aranovich",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "Circumstantial Pleasures",
+    "director": "Lewis Klahr",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/6ph3915NbnCpMnGiZageDbYer7C.jpg",
     "genero": "Animación",
-    "sinopsis": "Con Misterio, S.A. tras la pista de un extraño objeto en Nowhere, Kansas, la extraña ciudad natal de Eustice, Muriel y Coraje, la pandilla no tarda en enfrentarse a un gigantesco monstruo cigarra y a sus guerreros alados."
+    "sinopsis": "Los seis episodios de “Circumstantial Pleasure”, una sorprendente elaboración de un estilo característico, en el que la “historia” queda prácticamente eliminada, se desarrollan menos como un álbum de potentes recuerdos y más como una corriente de conciencia agitada."
   },
   {
-    "nombre": "Testigos Silenciosos",
-    "director": "Renny Harlin, Schiele Lee",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Acción",
-    "sinopsis": "Trabajando en la morgue, un esforzado forense y su asistente son repentinamente abordados por intrusos enmascarados que exigen el acceso a un cuerpo involucrado en un crimen reciente."
-  },
-  {
-    "nombre": "El bebé está listo",
-    "director": "Curtis Vowell",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "Clairevoyant",
+    "director": "Arthur De Larroche, Micaela Wittman",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/k81d47GVVzThJtbIXHiWycYoiDW.jpg",
     "genero": "Comedia",
-    "sinopsis": "Una comedia irreverente producida por Taika Waititi (“Jojo Rabbit”, “Thor: Ragnarok”) en su Nueva Zelanda natal y en la que se nota su gusto por el humor incorrecto y la excentricidad, pero sin perder el cariño hacia los personajes. Se trata, además, del debut en el cine como protagonista de Rose Matafeo, una de las cómicas y personalidades televisivas más populares en las antípodas.Matafeo da vida a Zoe, quien descubre con gran sorpresa que está embarazada. No es que ella no quiera tener un bebé: para lo que no se siente preparada es para ser madre. Zoe es una aventurera y no quiere que su vida cambie, por lo que decide ocultar su estado incluso a su pareja."
+    "sinopsis": "Claire Rivers, una niña rica y mimada, contrata a un equipo de cámara para que documente su viaje mientras intenta desprenderse de su ego y alcanzar la iluminación."
   },
   {
-    "nombre": "Come True",
-    "director": "Anthony Scott Burns",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Ciencia Ficción",
-    "sinopsis": "Sarah es una estudiante adolescente que toca fondo anímicamente tras huir de casa. Una vez sola, no tiene a nadie que le ayude a superar sus recurrentes pesadillas. Su única oportunidad de sobrevivir pasa por participar en un estudio universitario en la que entabla amistad con el científico supervisor, llamado Jeremy. Sin embargo, hay algo extraño en el procedimiento al que se somete, y con el paso de los días las pesadillas de Sarah empiezan a empeorar."
-  },
-  {
-    "nombre": "Tiburón blanco",
-    "director": "Martin Wilson",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Terror",
-    "sinopsis": "Kaz Fellows (Katrina Bowden) y Charlie Brody (Aaron Jakubenko) son dos pilotos de avión que deciden volar hacia “Hell’s Reef” con Joji Minase (Tim Kano), su mujer Michelle (Kimie Tsukakoshi) y el cocinero Benny (Te Kohe Tuhaka) para disfrutar de las bondades del arrecife. Por desgracia para ellos, la aparición de un depredador hará que sus vacaciones se conviertan en pasto de las peores pesadillas jamás imaginadas."   
-  },
-  {
-    "nombre": "Hellbox",
-    "director": "David Scott",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Terror",
-    "sinopsis": "HELLBOX es un paranoico thriller sobrenatural sobre una oscura conspiración contra la humanidad que se extiende a lo largo de cinco siglos. Se cuenta a través de historias entrelazadas en las que diversas personas (caballeros de una hermandad sagrada, un grupo de chicas universitarias, un psiquiatra suicida y una pareja embrujada con sus propios secretos oscuros) ven cómo sus vidas cambian terriblemente cuando entran en posesión de una antigua y misteriosa caja… Algunos dicen que contiene un trozo del infierno."
-  },
-  {
-    "nombre": "Envidia sana",
-    "director": "Daniel Cohen",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "Confesiones de una chica invisible",
+    "director": "Bruno Garotti",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/bGIy308alpX12xdBVsREgsHawQC.jpg",
     "genero": "Comedia",
-    "sinopsis": "Léa, Marc, Karine y Francis son dos parejas de amigos de toda la vida. El marido machista, la novia chillona… Todos ocupan su lugar en el grupo. La armonía rompe el día en que Lea, la más discreta de todos, les comenta que está escribiendo una novela que se convierte en un éxito de ventas."
+    "sinopsis": "Tetê solo quiere ser aceptada y divertirse, pero su vida cambiará por completo al mudarse con sus padres a la casa de sus abuelos y a una nueva escuela. Ahora, hará todo lo posible por huir del mismo bullying que ha enfrentado en el pasado."
   },
   {
-    "nombre": "Poliamor para principiantes",
-    "director": "Fernando Colomo",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Comedia",
-    "sinopsis": "Satur convierte a su hijo en “El ranger del amor”, un exitoso youtuber enmascarado defensor del amor romántico que se enamora perdidamente de Amanda. Lo que Manu no sabe es que Amanda es poliamorosa y tiene multiples relaciones."
+    "nombre": "El año de la furia",
+    "director": "Rafa Russo",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/Amg7FgfGvLtDqpIm94vfvPLQbQE.jpg",
+    "genero": "Thriller",
+    "sinopsis": "En el convulso Montevideo de 1972, mientras el país se despeña hacia el precipicio de la dictadura, Diego y Leonardo, dos guionistas de un conocido programa de humor de televisión, luchan por mantener su integridad ante las presiones de sus superiores para que rebajen el tono de sus mordaces sátiras políticas y eviten ofender a los altos militares que se están apoderando del control del país. Mientras, en el lado de los opresores, Rojas, un teniente del ejército que ha sido presionado para torturar a militantes o simpatizantes de la guerrilla de los Tupamaros, exorciza sus demonios con Susana, una prostituta con la que encuentra una suerte de refugio emocional ante su fuerte sentimiento de culpabilidad."
   },
   {
-    "nombre": "Swan Song",
-    "director": "Todd Stephens",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "Leona",
+    "director": "Isaac Cherem",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/mVPkcBOm0ZIScQVRgIBTqDzSowo.jpg",
     "genero": "Drama",
-    "sinopsis": "Un peluquero envejecido se escapa de su residencia para embarcarse en una odisea a través de su pequeña ciudad para peinar a una mujer muerta para su funeral, redescubriendo su chispa por el camino."
+    "sinopsis": "Ariela, una judía tradicional, conoce a Iván, un joven no judío con el que inicia una relación secreta a pesar de sus creencias familiares. Esta nueva experiencia permite a Ariela explorar el mundo que estaba fuera de la burbuja de su comunidad. Ariela se ve descubierta y amenazada. Mantener su relación significaría dejar su vida de judía y perder para siempre el contacto con su familia y amigos."
   },
   {
-    "nombre": "Synapse",
-    "director": "Kenlon Clark",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Ciencia Ficción",
-    "sinopsis": "Un adicto a la memoria es perseguido sin descanso por agentes federales de narcóticos empeñados en mantener ocultos los secretos que ha encerrado en su mente."
+    "nombre": "Lilith",
+    "director": "Alexander T. Hwang",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/b3qKjrjDs2kpCDhPpRGr4ZKM9Up.jpg",
+    "genero": "Terror",
+    "sinopsis": "Lilith habría sido la primera mujer de la humanidad, pero fue expulsada del cielo y condenada para siempre por oponerse al sistema patriarcal del reino de los cielos. Ahora está de vuelta, con sus sirvientes y su sed de venganza para destruir el orden creado por Dios y el Diablo."
   },
   {
-    "nombre": "Las mujeres y el asesino",
-    "director": "Mona Achache, Patricia Tourancheau",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Crimen",
-    "sinopsis": "El documental analiza el incansable esfuerzo de una jefa de policía y la madre de una víctima por encontrar y arrestar a un asesino en serie en el París de los años 90."
+    "nombre": "Real Talk",
+    "director": "Preston A. Whitmore II",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/xwLjH8zcoLGqrGE6tkTwOxadkZN.jpg",
+    "genero": "Drama",
+    "sinopsis": "Con humor, sarcasmo y a veces dureza, Dominique the Dame pone en primer plano las opiniones contemporáneas de Estados Unidos sobre la raza, el sexo, las drogas, la religión y la tecnología a través de sus oyentes que llaman a su programa “Real Talk”. El programa de radio adquiere un mayor significado cuando Dame moviliza a sus oyentes en una carrera contrarreloj para salvar la vida de una adolescente embarazada."
   },
   {
-    "nombre": "Caleb",
-    "director": "Roberto DAntona",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Misterio",
-    "sinopsis": "Rebecca busca a su hermana, una joven periodista que desapareció mientras investigaba una serie de desafortunados acontecimientos. El rastro la lleva a Timere. Allí Rebecca conoce a Caleb, un hombre cuya oscura mirada esconde un escalofriante secreto."
+    "nombre": "Las hijas del Reich",
+    "director": "Andy Goddard",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/cvzV7kJLhzufGM90Dgr5KKna6A5.jpg",
+    "genero": "Drama",
+    "sinopsis": "Verano de 1939. Thomas Miller acaba de aceptar un trabajo, cuanto menos polémico, que consiste en enseñar inglés a las hijas de los altos rangos del ejército Nazi en el Instituto Augusta-Victoria, localizado en la costa sur de Inglaterra. A pesar de la tormenta que se avecina, estas alumnas deben aprender todo sobre Shakespeare, gramática y deporte, con el objetivo de representar todo lo que se desea que represente una mujer alemana. Todo cambia para este grupo cuando un antiguo profesor aparece muerto."
   },
   {
-    "nombre": "El jinete del dragón",
-    "director": "Tomer Eshed",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "Terminal Sud",
+    "director": "Rabah Ameur-Zaïmeche",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/78Afq6OXLQc2WF6dZbr3dzD1Wom.jpg",
+    "genero": "Drama",
+    "sinopsis": "En un país mediterráneo sumido en un conflicto armado, un médico intenta cumplir con su deber contra viento y marea, hasta el día en que su destino se trastorna …"
+  },
+  {
+    "nombre": "Aves del paraíso",
+    "director": "Sarah Adina Smith",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/h3v0rsQvik8yMh3LStRiDu0GTHP.jpg",
+    "genero": "Drama",
+    "sinopsis": "A dos niñas de una academia de ballet de élite parisina se les ponen a prueba sus vínculos y sus cuerpos mientras compiten por un contrato para unirse a la compañía de la Ópera Nacional de París."
+  },
+  {
+    "nombre": "Tut Tut Cory Bólidos Chrissys al volante",
+    "director": "No disponible",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/eZvpTcUk0L8paEqegXzUcJa9nG.jpg",
     "genero": "Animación",
-    "sinopsis": "Un trío de héroes inverosímiles (un dragón, un niño y un brownie del bosque) se embarcan en una aventura épica para encontrar el “Borde del Cielo”, el refugio mitológico seguro para todos los dragones."
+    "sinopsis": "Desde juegos de arcade hasta días en trineo y curas para el hipo, ¡la curiosa hermana pequeña de Cory Carson, Chrissy, acelera sola para divertirse y vivir aventuras por toda la ciudad!"
   },
   {
-    "nombre": "El efecto Marcus – Los casos del Departamento Q",
-    "director": "Martin Zandvliet",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "My Little Pony: Una nueva generación",
+    "director": "José Luis Ucha, Mark Fattibene, Robert Cullen",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/hzq5XRGgm6NDMOW1idUvbpGqEkv.jpg",
+    "genero": "Animación",
+    "sinopsis": "Hace mucho tiempo, ponis, pegasos y unicornios vivían en armonía, pero esos tiempos quedaron atrás. Cuando un feliz y despreocupado unicornio llega a Maretown, una poni terrestre (Sunny) y sus amigos se embarcan en una aventura para recuperar la magia y la amistad en Equestria. Acompaña a esta nueva generación de ponis que demostrarán el valor de la amistad y que cuando están unidos, brillan mucho más."
+  },
+  {
+    "nombre": "El estornino",
+    "director": "Theodore Melfi",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/gPkaPGNbjZCeRurSYGi0JD63DBa.jpg",
+    "genero": "Comedia",
+    "sinopsis": "Tras sufrir una pérdida, una mujer se las tiene que ver con un pájaro peleón que se ha apoderado de su jardín… y un marido que no encuentra la forma de seguir adelante."
+  },
+  {
+    "nombre": "Je suis Karl",
+    "director": "Christian Schwochow",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/jsZkLqSzMm2AcxOAAAGTlK0Giac.jpg",
+    "genero": "Drama",
+    "sinopsis": "Maxi, el superviviente de un ataque terrorista, se une a Karl, un encantador estudiante, para formar parte del movimiento europeo juvenil cuyo propósito es – nada menos – que hacerse con el poder."
+  },
+  {
+    "nombre": "La Fille au bracelet",
+    "director": "Stéphane Demoustier",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/nvczTtFJL2ld4ENjEKDXGxw7s0i.jpg",
     "genero": "Crimen",
-    "sinopsis": "Cuando Marco, un niño gitano de 14 años sin hogar, es arrestado en el control de fronteras danés por posesión del pasaporte de un funcionario público desaparecido, el inspector de policía Carl Mørck y su equipo del Departamento Q tienen la tarea de encontrar la conexión. El caso anterior contiene varios elementos sospechosos: el servidor público fue acusado de pedofilia poco antes de su desaparición, y su caso se cerró inusualmente rápido. Pero el silencioso y traumatizado Marco se niega a hablar con ellos y no pasa mucho tiempo antes de que esté huyendo de aquellos que pretenden matarlo por lo que él sabe."
+    "sinopsis": "Una adolescente se somete a un juicio tras haber asesinado a su mejor amiga. Durante el juicio, sus padres la defienden de manera inquebrantable. Sin embargo, a medida que su vida secreta comienza a desvelarse, la verdad se convierte en algo indiscutible"
   },
   {
-    "nombre": "Pequeño país",
-    "director": "Eric Barbier",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "Murder on Maple Drive",
+    "director": "Michelle Ouellet",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2",
+    "genero": "Crimen",
+    "sinopsis": "En un esfuerzo por “mantenerse al día con los Jones”, una pareja estira sus finanzas para comprar una casa en un barrio de clase alta. Debido a un asesinato/suicidio de los anteriores propietarios, la casa está muy rebajada. Después de mudarse, entablan una rápida amistad con un vecino. Pero empiezan a ocurrir cosas extrañas y pronto sospechan que el vecino puede haber participado en los asesinatos."
+  },
+  {
+    "nombre": "Snake Eyes: G.I. Joe Origins",
+    "director": "James Madigan, Robert Schwentke",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+    "genero": "Acción",
+    "sinopsis": "Película de acción basada en la conocida línea de juguetes G.I. Joe. Este spin-off se centra en la historia de los orígenes de Snake Eyes (Henry Golding), el ninja silencioso siempre vestido de negro y del que no se conoce el rostro, y cómo intenta convertirse en miembro del clan Arashikage. Junto a él conoceremos otros personajes como La baronesa (Úrsula Corberó) y su archienemigo Storm Shadow (Andrew Koji)."
+  },
+  {
+    "nombre": "Sweat",
+    "director": "Magnus von Horn",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/tmiZRL4lTE1wtDT5FI0mp2PR8fg.jpg",
     "genero": "Drama",
-    "sinopsis": "Gabriel tiene 10 años y vive en un cómodo vecindario de expatriados en Burundi, su “pequeño país”. Gabriel es un niño normal, feliz y despreocupado, que vive aventuras cotidianas con sus amigos y su hermana pequeña. De repente, en 1993, las tensiones en el país vecino, Ruanda, estallaron, poniendo en peligro tanto a su familia como a su inocencia."
+    "sinopsis": "Describe tres días en la vida de la motivadora de fitness Sylwia Zając, una celebridad en las redes sociales con cientos de miles de followers. Aunque tiene tantos seguidores, está rodeada de empleados fieles y es admirada por sus conocidos, ella busca una intimidad verdadera."
   },
   {
-    "nombre": "Potter’s Ground",
-    "director": "Michael Butts",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Drama",
-    "sinopsis": "Un ex-merodeador confederado intenta comenzar de manera limpia en una granja de tierra de Texas con su esposa y su hija pequeña. Aprende rápidamente que a veces el pasado simplemente no permanece enterrado."
-  },
-  {
-    "nombre": "Savage Creatures",
-    "director": "Richard Lowry",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "The Medium",
+    "director": "Banjong Pisanthanakun",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/2aP7usXx1uLbduhrsW84hn3yRyY.jpg",
     "genero": "Terror",
-    "sinopsis": "En la víspera del día del juicio, los caníbales depredadores secuestran a dos jóvenes vagabundos que guardan un secreto impactante: son antiguos vampiros. Después de un choque sangriento, los vampiros se enfrentan repentinamente a una crisis apocalíptica cuando las criaturas alienígenas que roban el alma invaden y atacan a la humanidad, convirtiendo a sus víctimas en zombis carnívoros. Las fuerzas del mal chocan en una batalla cataclísmica por el dominio."
+    "sinopsis": "Una historia espantosa sobre la herencia de un chamán en la región de Isan en Tailandia y lo que podría estar poseyendo a un miembro de la familia, podría no ser la Diosa que pretende ser."
   },
   {
-    "nombre": "Shockwave: arma letal",
-    "director": "Kennedy Del Toro, Nick Lyon",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "Under the Volcano",
+    "director": "Gracie Otto",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/h5qQZl0i9iWbhhaFAHBh0GokX3V.jpg",
+    "genero": "Documentales",
+    "sinopsis": "La historia de los estudios AIR de George Martin en Montserrat y la isla que cambió la música para siempre."
+  },
+  {
+    "nombre": "Free Guy",
+    "director": "Carolina Jiménez, Isaac Nadreau, Josh McLaglen, Shawn Levy",  
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/vtsYPZi7bxVHhKnhENhiIz44Xlt.jpg",
     "genero": "Acción",
-    "sinopsis": "Cuando una serie de erupciones volcánicas empiezan a tener lugar, la geofísica Kate Ferris intenta convencer al Departamento de Defensa de que estos fenómenos no tiene un origen natural, sino que son resultado de algún tipo de armamento."
+    "sinopsis": "Un trabajador de un banco descubre que en realidad es un jugador dentro de un videojuego."
   },
   {
-    "nombre": "Espiral: El juego del miedo continúa",
-    "director": "Darren Lynn Bousman",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Crimen",
-    "sinopsis": "El detective descarado Ezekiel “Zeke” Banks, y su compañero novato, se hacen cargo de una espeluznante investigación sobre varios asesinatos espansosos. Zeke, involuntariamente, se vera atrapado en el morboso juego del asesino."
-  },
-  {
-    "nombre": "Spring",
-    "director": "Alexandra Swarens",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Drama",
-    "sinopsis": "Una chica inglesa tiene su vida desarraigada por su madre para su último año de instituto. Por si no fuera lo suficientemente duro dejar atrás lo que le es familiar, este pequeño pueblo americano guarda recuerdos del pasado para ella, ya que pasó años allí cuando era niña. Sin embargo, los recuerdos borrosos y la historia pasada son sólo una pequeña pieza en la incertidumbre de la adolescencia."
-  },
-  {
-    "nombre": "Sweet Carolina",
-    "director": "Peter Benson",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Drama",
-    "sinopsis": "Josie es una exitosa ejecutiva de marketing de Nueva York que regresa a su pequeño pueblo natal. Allí se convierte en la inesperada tutora de sus sobrinos y se reencuentra con Cooper, su novio del instituto."
-  },
-  {
-    "nombre": "The Death &amp; Life of John F. Donovan",
-    "director": "Xavier Dolan",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Drama",
-    "sinopsis": "Cuenta la historia de un actor ficticio llamado John F. Donovan que es famoso por interpretar a superhéroes como los de Marvel. Su vida y su carrera cambian cuando mantiene correspondencia con un niño de 11 años y ésta se hace pública, dejando al descubierto cientos de suposiciones de las que se aprovecha una indecente columnista de cotilleos."
-  },
-  {
-    "nombre": "The Runners",
-    "director": "Joey Loomis, Micah Lyons",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "A Soldier’s Story 2: Return from the Dead",
+    "director": "No disponible",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/unKXGP7eohnyznfYAjgMwtgoCHO.jpg",
     "genero": "Acción",
-    "sinopsis": "Cuando su hermana pequeña es secuestrada en una fiesta posterior al regreso a casa en la zona rural del este de Texas, Ryan está en una carrera contrarreloj para salvarla antes de que desaparezca para siempre en el inframundo del tráfico sexual."
+    "sinopsis": "En Watz Republic, Regina (Linda Ejiofor) le confía a su amiga, Zaya (Somkele Idhalama) que cuide de su hermano menor mientras ella persigue los deseos de su corazón de estar con el Mayor Egan (Tope Tedela)."
   },
   {
-    "nombre": "The Way You Look Tonight",
-    "director": "John Cerrito",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Fantasía",
-    "sinopsis": "Peter se acerca a los 30 años y todavía está tratando de navegar por la cultura moderna de las citas en línea. Después de que una noche romántica y caprichosa con una misteriosa joven acabe con él despertándose solo, Peter intenta dejar atrás la noche recurriendo a un sitio de citas míticamente eficaz que le garantiza encontrar a su pareja perfecta. Pero con cada cita del sitio, Peter nota extrañas similitudes entre cada mujer y esa primera cita increíble. A medida que va conociendo la verdad sobre su conexión, descubrirá todo un nuevo mundo de personas y experiencias que le harán cuestionarse la naturaleza de la identidad, la atracción y el amor."
-  },
-  {
-    "nombre": "The Evening Hour",
-    "director": "Braden King",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Drama",
-    "sinopsis": "Cole Freeman mantiene un incómodo equilibrio en su pueblo rural de los Apalaches, cuidando a los ancianos y enfermos mientras vende sus excedentes de analgésicos a los adictos locales. Pero cuando un viejo amigo regresa con planes que ponen en peligro el frágil equilibrio y la identidad que con tanto esfuerzo ha creado, Cole se ve obligado a actuar."
-  },
-  {
-    "nombre": "The Voyeurs",
-    "director": "Michael Mohan",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
-    "genero": "Drama",
-    "sinopsis": "Pippa y Thomas, una pareja que se acaba de mudar al apartamento de sus sueños, descubre que las ventanas permiten ver el interior del piso de enfrente y no pueden resistirse a observar a sus vecinos e incluso intentar interferir en sus vidas de forma anónima. Pronto descubrirán que todo tiene consecuencias."
-  },
-  {
-    "nombre": "Presas de caza",
-    "director": "Thomas Sieben",
-    "URL_Imagen": "https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/cuevana3.png",
+    "nombre": "Edge of the World",
+    "director": "Michael Haussman",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/kwe29qj6sZzjIfQYHiwuHjqtBnb.jpg",
     "genero": "Aventura",
-    "sinopsis": "Una excursión al campo se convierte en una lucha desesperada por la supervivencia para cinco amigos que huyen de un misterioso tirador."
+    "sinopsis": "A mediados del siglo XIX, el gobierno británico comisiona al oficial Sir James Brooke para que termine con los piratas que asolan las costas de Malasia. Pero Brooke va más allá y una vez llega a su destino conseguirá no solo exterminar a los piratas sino que se convertirá en el rajah del Reino de Sarawak. Atesora tal poder que el gobierno británico empieza a temerle: ¿han creado un poderoso enemigo?"
+  },
+  {
+    "nombre": "Civil War (Or, Who Do We Think We Are)",
+    "director": "Rachel Boynton",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/c0RwJWGu2urVpeVBABchemspdeE.jpg",
+    "genero": "Documentales",
+    "sinopsis": "Un viaje a través de los Estados Unidos para explorar la historia de la guerra civil de los estadounidenses desde el último año de mandato del presidente Obama hasta el presente."
+  },
+  {
+    "nombre": "Crypto Legacy",
+    "director": "Charles Townsend",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/bE1weTpN8gm0PH1R5UY162oVsuk.jpg",
+    "genero": "Acción",
+    "sinopsis": "A Troy Morgan no le gusta la granja de su familia. El lugar le da escalofríos. Tras divisar unas extrañas luces una noche, Troy y su hermana pequeña Carrie van a investigar el espeluznante granero."
+  },
+  {
+    "nombre": "Deadly Passion",
+    "director": "Jasmine Jamar Alston",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/mOFDiEJnnC0dH3SqRosYU1Ty7Rq.jpg",
+    "genero": "Drama",
+    "sinopsis": "¿Qué se hace, a quién se recurre cuando se sospecha que la pareja es infiel? Esa es la pregunta que asalta la mente de Daniel, propietario de un negocio en una pequeña ciudad. Harto de la falta de afecto Daniel decide tomar cartas en el asunto y contrata a un investigador privado Jacob Miller. El resultado de su investigación es impactante, pero extrañamente decide guardárselo para sí mismo por ahora."
+  },
+  {
+    "nombre": "Entanglement",
+    "director": "Damon Jamal",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/dFbsDDvDswgSYKGPsSD6sAiuy7v.jpg",
+    "genero": "Drama",
+    "sinopsis": "Un DJ nocturno de la emisora de radio más importante de Atlanta lucha por encontrar el camino de vuelta a la cima después de haber sido abandonado en directo. En su viaje para revivir su carrera, se encuentra con una mujer que una vez llamó a su programa en busca de consejo amoroso, y ahí es donde las cosas comienzan a enredarse."
+  },
+  {
+    "nombre": "Everybody Gets Stabbed",
+    "director": "Levon J. Polinelli",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/2HlbWdbGMchr5lSRPa1NjtjehU.jpg",
+    "genero": "Comedia",
+    "sinopsis": "A Clive le gusta Lauren. Lauren no tiene ni idea. Desmond está enamorado de Clive. Clive no tiene ni idea. Lauren y su novio Tom se quieren mucho. A Clive no le gusta Tom, porque Clive fue el que puso todas las monedas de amigo y no fue recompensado con sexo y una relación. Así que con la ayuda de Desmond, Clive decide empezar a matar a todos sus amigos y culpar a Tom, y entonces algo, algo, Lauren se dará cuenta de que realmente quiere a Clive. Y tal vez, si salen juntos, Clive se enamorará de Desmond. No es el mejor de los planes. Y no son los mejores asesinos. Pero van a intentarlo al rojo vivo, porque hacer otra cosa los convertiría en idiotas."
+  },
+  {
+    "nombre": "Her Pen Pal",
+    "director": "Clare Niederpruem",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/oz71mRn4UeiE7wr7KV5mUwsncA3.jpg",
+    "genero": "Drama",
+    "sinopsis": "La organizadora de eventos Victoria está deseando asistir -y planificar- la boda de su mejor amiga en París. Pero cuando se entera de que su ex va a llevar una cita, Victoria se reencuentra con su amiga francesa por correspondencia de la infancia."
+  },
+  {
+    "nombre": "Intrusión",
+    "director": "Adam Salky",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/dzCkRAYgG9BrKgfXkdQP3li8Ck5.jpg",
+    "genero": "Drama",
+    "sinopsis": "Un matrimonio se muda a un pueblecito y un allanamiento de morada deja traumatizada a la mujer, que sospecha que quienes la rodean podrían no ser lo que parecen."
+  },
+  {
+    "nombre": "Is Mindfulness Right for You?",
+    "director": "Jeremy Norrie",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/6QqEphUxehbUe9J28Jbhhe2dUwT.jpg",
+    "genero": "Documentales",
+    "sinopsis": "Este documental perspicaz e informativo explora el popular mundo del Mindfulness desde la perspectiva de cuatro personas que lo estudian y enseñan. La atención plena se define como un estado mental que se consigue al centrar la conciencia en el momento presente, mientras se reconocen y aceptan con calma los sentimientos, los pensamientos y las sensaciones corporales, y se utiliza como técnica terapéutica."
+  },
+  {
+    "nombre": "Mi gran despedida",
+    "director": "Antonio Álamo, Antonio Hens",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/xXxkmMW8a3PtT0D5N1dcoHmY4iI.jpg",
+    "genero": "Drama",
+    "sinopsis": "Es la historia de tres amores: el de Puri, dispuesta a hacer lo posible y lo imposible por dejar las cosas claras con su novio; el de Milagri, que guarda más secretos de los que su naturaleza le permite, y el de Sara, cuya inminente boda reúne a un variopinto grupo de mujeres para festejar su compromiso en un día que debería ser muy feliz para todas. Pero va a ser que no. Es también la historia de dos catástrofes, aunque quizá nos quedamos cortos. Y, por último, es la historia de un acto de coraje, aunque, por supuesto, haya siempre que pagar un precio por ello."
+  },
+  {
+    "nombre": "Looks That Kill",
+    "director": "Kellen Moore",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/41qVwAz4ZCc8g7YQETQih8fpB8q.jpg",
+    "genero": "Comedia",
+    "sinopsis": "La historia de un adolescente que se ocupa de los altibajos de ser letalmente atractivo."
+  },
+  {
+    "nombre": "Martyrs Lane",
+    "director": "Ruth Platt",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/2p9ATFUEiXT75LmMsSCBicnpX8e.jpg",
+    "genero": "Terror",
+    "sinopsis": "Leah, de 10 años, tiene terribles pesadillas. Su madre parece distante, perdida en sus pensamientos. Un pequeño visitante nocturno reconforta a Leah, pero pronto se dará cuenta de que su pequeño visitante le ofrece conocimientos que podrían ser muy, muy peligrosos."
+  },
+  {
+    "nombre": "My Husband’s Deadly Past",
+    "director": "Troy Scott",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/vS26aLmwelh1wp2b01omUWDvsfU.jpg",
+    "genero": "Thriller",
+    "sinopsis": "Una mujer atormentada por visiones que sugieren que ella mató a una compañera desaparecida descubre que su marido psiquiatra ha manipulado su memoria para ocultar su propio papel en el asesinato."
+  },
+  {
+    "nombre": "Noche de los muertos animados",
+    "director": "Jason Axinn",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/1QyeGqvmyyjsyD9nmfTazC83D4l.jpg",
+    "genero": "Animación",
+    "sinopsis": "En Night of the Animated Dead, los hermanos Barbara y Johnny visitan la tumba de su padre en un cementerio remoto en Pensilvania cuando de repente son atacados por zombies. Barbara huye y se lleva."
+  },
+  {
+    "nombre": "Ouija Warehouse",
+    "director": "Abby Joy, Israel Luna",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/p4VaG6c6BQPD6Ele2XJzIefaLC.jpg",
+    "genero": "Terror",
+    "sinopsis": "A un grupo de amigos les ocurren extraños sucesos mientras se preparan para una fiesta de cumpleaños en un gran almacén. Cuando Kay y su mejor amigo Noah encuentran un tablero de espíritus en un almacén, deciden contactar con las víctimas mortales que murieron allí el año anterior. Mientras presencian: ruidos extraños, objetos que desaparecen y un posible portal, los amigos intentan reconstruir los secretos ocultos que les afectan a todos antes de que sea demasiado tarde."
+  },
+  {
+    "nombre": "Roe v. Wade",
+    "director": "Cathy Allyn, Nick Loeb",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/kFQwRGFQtxW67Cj5tRSGyownMz.jpg",
+    "genero": "Drama",
+    "sinopsis": "El Dr. Bernard Nathanson y la Dra. Mildred Jefferson se enfrentan en una batalla nacional en esta conspiración no contada que condujo al caso judicial más famoso y controvertido de la historia."
+  },
+  {
+    "nombre": "Raunch and Roll",
+    "director": "Phil Wurtzel",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/xXmlqE0MbFSdahlVgLbSBLCi1c5.jpg",
+    "genero": "Drama",
+    "sinopsis": "Antes de que se apaguen las luces, Roxy Starr y su mánager reúnen a la banda para un espectáculo más."
+  },
+  {
+    "nombre": "Send It!",
+    "director": "Andrew Stevens",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/iSrsifEI49pfyewDJtGcQpFZ11W.jpg",
+    "genero": "Acción",
+    "sinopsis": "La vida de un deportista extremo cambia para siempre al abandonar sus sencillas raíces tejanas para competir en el Campeonato de Kiteboarding más prestigioso del mundo. En el camino, una chica inteligente de la calle lo desafía mucho más allá del kiteboarding."
+  },
+  {
+    "nombre": "The Charm of Love",
+    "director": "Damián Romay",
+    "URL_Imagen": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/wn8ys12RTnKr22I99zq6D9B6Fyt.jpg",
+    "genero": "Romance",
+    "sinopsis": "Maddie, una historiadora del arte, viaja por todo el mundo para encontrar la Piedra de los Enamorados, pero cuando conoce a Fitz, su búsqueda puede llevarle al verdadero amor después de todo."
   }
 ]

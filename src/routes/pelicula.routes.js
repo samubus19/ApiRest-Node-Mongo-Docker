@@ -14,7 +14,7 @@ const {verificarToken} = require('../middlewares/autenticacion.middleware');
 
 router.get("/obtenerPeliculas", obtenerPeliculas);
 router.get("/obtenerPeliculaPorId/:id", obtenerPeliculaPorId);
-router.post("/agregarPelicula",verificarToken, agregarPelicula);
+router.post("/agregarPelicula", agregarPelicula);
 router.delete("/borrarPelicula/:id",verificarToken, borrarPelicula);
 router.put("/editarPelicula/:id",verificarToken, editarPelicula);
 

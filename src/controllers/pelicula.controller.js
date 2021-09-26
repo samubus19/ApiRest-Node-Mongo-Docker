@@ -2,6 +2,7 @@ const indexController = {};
 const puppeteer       = require('puppeteer');
 const {ejecutarBot}   = require('../bot-scrapper');
 const Pelicula        = require('../models/Pelicula');
+const fs              = require('fs');
 
 indexController.obtenerPeliculas = async(req, res) => {
 
@@ -39,19 +40,35 @@ indexController.obtenerPeliculaPorId = async (req, res) => {
 
 indexController.agregarPelicula = async (req, res) => {
 
-    try {
-        const {nombre, director, imgUrl, genero, sinopsis} = req.body;
-        const nuevaPelicula = new Pelicula({nombre: nombre, director: director, URL_Imagen : imgUrl, genero: genero, sinopsis: sinopsis});
-        // if(await nuevaPelicula.findOne({nombre: nombre, director: director, URL_Imagen : imgUrl, genero: genero, sinopsis: sinopsis})) {
-        //     return res.status(400).json("La pelicula ya existe");
-        // }
-        await nuevaPelicula.save();
-        // return res.status(200).json("Pelicula creada correctamente");
-        return res.status(201).json("Pelicula creada correctamente");
+    fs.readFile('/usr/src/app/src/public/peliculas.json', async (err, data) => {
+        if (err) throw err;
+        let peliculas = JSON.parse(data);
+        for(pelicula of peliculas) {
+            const {nombre, director, URL_Imagen, genero, sinopsis} = pelicula;
+            const nuevaPelicula = new Pelicula({
+                nombre : nombre,
+                director : director,
+                URL_Imagen : URL_Imagen,
+                genero : genero,
+                sinopsis : sinopsis
+            });
+            await nuevaPelicula.save();
+        }
+    
+        return res.status(200).json("Peliculas agregadas correctamente");
+    });
 
-    } catch(err) {
-        return res.status(500).json(err);
-    }
+    // try {
+    //     const {nombre, director, imgUrl, genero, sinopsis} = req.body;
+    //     const nuevaPelicula = new Pelicula({nombre: nombre, director: director, imgUrl: imgUrl, genero: genero, sinopsis: sinopsis});
+
+    //     await nuevaPelicula.save();
+    //     await res.status(200).json("Pelicula creada correctamente");
+
+    // } catch(err) {
+    //     console.log(err);
+    //     return res.sendStatus(500);
+    // }
 
 };
 
@@ -86,3 +103,4 @@ indexController.editarPelicula = (req, res) => {
 };
 
 module.exports = indexController;
+

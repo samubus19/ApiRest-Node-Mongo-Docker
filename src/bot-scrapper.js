@@ -29,7 +29,7 @@ funcion.ejecutarBot = async () => {
             const nuevaPelicula = {
                 nombre     : document.querySelector('.Title').innerHTML,
                 director   : document.querySelector('.AAIco-adjust span').innerHTML,
-                URL_Imagen : document.querySelector('img').getAttribute("src"),
+                URL_Imagen : document.querySelector('article .Image img').getAttribute("src"),
                 genero     : document.querySelector('.AAIco-adjust a').innerHTML,
                 sinopsis   : document.querySelector('.Description p').innerHTML,
             };
@@ -40,12 +40,12 @@ funcion.ejecutarBot = async () => {
         listaPeliculas.push(pelicula);
         
     }
-    // await console.log(listaPeliculas);
+    await console.log(listaPeliculas);
     await browser.close();
     return listaPeliculas;
 }
 
-
+funcion.ejecutarBot();
 
 module.exports = funcion;
 

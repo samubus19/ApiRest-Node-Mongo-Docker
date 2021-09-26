@@ -11,8 +11,7 @@ indexController.obtenerPeliculas = async(req, res) => {
 
     } catch(err) {
 
-        console.log(err);
-        return res.sendStatus(500);
+        return res.status(500).json(err);
 
     }
 
@@ -33,10 +32,7 @@ indexController.obtenerPeliculaPorId = async (req, res) => {
         }
 
     } catch(err) {
-        console.log(err);
-        return res.status(500).json({
-            mensaje : "Internal server error"
-        });
+        return res.status(500).json(err);
     }
 
 };
@@ -45,14 +41,16 @@ indexController.agregarPelicula = async (req, res) => {
 
     try {
         const {nombre, director, imgUrl, genero, sinopsis} = req.body;
-        const nuevaPelicula = new Pelicula({nombre: nombre, director: director, imgUrl: imgUrl, genero: genero, sinopsis: sinopsis});
-
+        const nuevaPelicula = new Pelicula({nombre: nombre, director: director, URL_Imagen : imgUrl, genero: genero, sinopsis: sinopsis});
+        // if(await nuevaPelicula.findOne({nombre: nombre, director: director, URL_Imagen : imgUrl, genero: genero, sinopsis: sinopsis})) {
+        //     return res.status(400).json("La pelicula ya existe");
+        // }
         await nuevaPelicula.save();
-        await res.status(200).json("Pelicula creada correctamente");
+        // return res.status(200).json("Pelicula creada correctamente");
+        return res.status(201).json("Pelicula creada correctamente");
 
     } catch(err) {
-        console.log(err);
-        return res.sendStatus(500);
+        return res.status(500).json(err);
     }
 
 };
@@ -65,21 +63,25 @@ indexController.borrarPelicula = async (req, res) => {
         
         //FALTA QUE DESPUES DE BORRAR PIDAMOS NUEVAMENTE EL LISTADO DE PELICULAS
         
-        return res.status(200).json("Peliculas borrada correctamente");
+        return res.status(200).json("Pelicula borrada correctamente");
         
     } catch(err) {
-        console.log(err);
-        return res.sendStatus(500);
+        return res.status(500).json(err);
     }
     
 };
 
 indexController.editarPelicula = (req, res) => {
 
-    const {nombre, director, URL_Imagen, genero, sinopsis} = req.body;
-    Pelicula.findByIdAndUpdate(req.params.id, {nombre, director, URL_Imagen, genero, sinopsis});
+    try {
+        const {nombre, director, URL_Imagen, genero, sinopsis} = req.body;
+        Pelicula.findByIdAndUpdate(req.params.id, {nombre, director, URL_Imagen, genero, sinopsis});
+    
+        return res.status(200).json("Pelicula editada correctamente");
 
-    return res.status(200).json("Peliculas editada correctamente");
+    } catch(err) {
+        return res.status(500).json(err);
+    }
 
 };
 

@@ -18,15 +18,6 @@ autenticacionController.crearUsuario = async (req, res) => {
     } else {
         nuevoUsuario.password = await nuevoUsuario.encryptPassword(contraseña);
         await nuevoUsuario.save();
-        jwt.sign(
-            {nuevoUsuario}, 
-            SECRET_KEY, 
-            {expiresIn : '3600s'},
-            (err, token) => {
-                res.status(200).json(
-                    token
-                );
-            });
     }
 }
 
@@ -37,7 +28,7 @@ autenticacionController.autenticarUsuario = async (req, res) => {
     }
     const contraseniaValida = await usuario.matchPassword(req.body.contraseña);
     if (!contraseniaValida) {
-    return res.status(401).send({ auth: false, token: null, mensaje : "Contrasena invalida" });
+        return res.status(401).send({ auth: false, token: null, mensaje : "Contrasena invalida" });
     }
 
     const token = jwt.sign({ id: usuario._id }, SECRET_KEY, {

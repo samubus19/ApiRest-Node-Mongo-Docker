@@ -18,6 +18,7 @@ autenticacionController.crearUsuario = async (req, res) => {
     } else {
         nuevoUsuario.password = await nuevoUsuario.encryptPassword(contraseña);
         await nuevoUsuario.save();
+        return res.status(201).json("Usuario creado correctamente");
     }
 }
 
@@ -34,7 +35,7 @@ autenticacionController.autenticarUsuario = async (req, res) => {
     const token = jwt.sign({ id: usuario._id }, SECRET_KEY, {
         expiresIn: '1h',
     });
-    res.status(200).send(token);
+    res.status(200).send({token});
 }
 
 

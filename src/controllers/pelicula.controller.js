@@ -39,6 +39,25 @@ indexController.obtenerPeliculaPorNombre = async (req, res) => {
 
 };
 
+indexController.obtenerPeliculaPorId = async (req, res) => {
+
+    try {
+    const pelicula = await Pelicula.find({_id : req.params.id});
+        await console.log(pelicula);
+        if(pelicula) {
+            return res.status(200).json(pelicula);
+        } else {
+            return res.status(404).json({
+                mensaje : "No se ha encontrado la pelicula"
+            })
+        }
+
+    } catch(err) {
+        return res.status(500).json(err);
+    }
+
+};
+
 indexController.agregarPelicula = async (req, res) => {
 
     // fs.readFile('/usr/src/app/src/public/peliculas.json', async (err, data) => {
@@ -60,11 +79,11 @@ indexController.agregarPelicula = async (req, res) => {
     // });
 
     try {
-        const {nombre, director, imgUrl, genero, sinopsis} = req.body;
-        const nuevaPelicula = new Pelicula({nombre: nombre, director: director, imgUrl: imgUrl, genero: genero, sinopsis: sinopsis});
+        const {nombre, director, URL_Imagen, genero, sinopsis} = req.body;
+        const nuevaPelicula = new Pelicula({nombre: nombre, director: director, URL_Imagen: URL_Imagen, genero: genero, sinopsis: sinopsis});
 
         await nuevaPelicula.save();
-        await res.status(200).json("Pelicula creada correctamente");
+        await res.status(201).json("Pelicula creada correctamente");
 
     } catch(err) {
         console.log(err);
@@ -86,11 +105,11 @@ indexController.borrarPelicula = async (req, res) => {
     
 };
 
-indexController.editarPelicula = (req, res) => {
+indexController.editarPelicula = async (req, res) => {
 
     try {
         const {nombre, director, URL_Imagen, genero, sinopsis} = req.body;
-        Pelicula.findByIdAndUpdate(req.params.id, {nombre, director, URL_Imagen, genero, sinopsis});
+        await Pelicula.findByIdAndUpdate(req.params.id, {nombre, director, URL_Imagen, genero, sinopsis});
     
         return res.status(200).json("Pelicula editada correctamente");
 

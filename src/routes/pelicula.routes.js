@@ -4,7 +4,7 @@ const router   = Router();
 
 const {
     obtenerPeliculas, 
-    obtenerPeliculaPorId, 
+    obtenerPeliculaPorNombre, 
     editarPelicula, 
     agregarPelicula, 
     borrarPelicula,
@@ -12,8 +12,8 @@ const {
 
 const {verificarToken} = require('../middlewares/autenticacion.middleware');
 
-router.get("/obtenerPeliculas", obtenerPeliculas);
-router.get("/obtenerPeliculaPorId/:id", obtenerPeliculaPorId);
+router.get("/obtenerPeliculas",verificarToken, obtenerPeliculas);
+router.get("/obtenerPeliculaPorNombre/:nombre",verificarToken, obtenerPeliculaPorNombre);
 router.post("/agregarPelicula", agregarPelicula);
 router.delete("/borrarPelicula/:id",verificarToken, borrarPelicula);
 router.put("/editarPelicula/:id",verificarToken, editarPelicula);

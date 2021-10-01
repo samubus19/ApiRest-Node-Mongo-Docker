@@ -10,7 +10,7 @@ const app  = express();
 app.use(cors());
 
 // Falta meter esta funcion en donde llamemos a las rutas,
-// No se si es necesaria y si va a funcionar devido a que ya tenemos
+// No se si es necesaria y si va a funcionar debido a que ya tenemos
 // la validacion por token
 
 // let listaBlanca = ['http://localhost:3000/']

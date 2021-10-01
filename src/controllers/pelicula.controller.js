@@ -20,10 +20,11 @@ indexController.obtenerPeliculas = async(req, res) => {
 
 };
 
-indexController.obtenerPeliculaPorId = async (req, res) => {
+indexController.obtenerPeliculaPorNombre = async (req, res) => {
 
     try {
-        const pelicula = await Pelicula.findById(req.params.id);
+    const pelicula = await Pelicula.find({'nombre': {'$regex': req.params.nombre , '$options': 'i'}});
+        await console.log(pelicula);
         if(pelicula) {
             return res.status(200).json(pelicula);
         } else {
@@ -40,35 +41,35 @@ indexController.obtenerPeliculaPorId = async (req, res) => {
 
 indexController.agregarPelicula = async (req, res) => {
 
-    fs.readFile('/usr/src/app/src/public/peliculas.json', async (err, data) => {
-        if (err) throw err;
-        let peliculas = JSON.parse(data);
-        for(pelicula of peliculas) {
-            const {nombre, director, URL_Imagen, genero, sinopsis} = pelicula;
-            const nuevaPelicula = new Pelicula({
-                nombre : nombre,
-                director : director,
-                URL_Imagen : URL_Imagen,
-                genero : genero,
-                sinopsis : sinopsis
-            });
-            await nuevaPelicula.save();
-        }
+    // fs.readFile('/usr/src/app/src/public/peliculas.json', async (err, data) => {
+    //     if (err) throw err;
+    //     let peliculas = JSON.parse(data);
+    //     for(pelicula of peliculas) {
+    //         const {nombre, director, URL_Imagen, genero, sinopsis} = pelicula;
+    //         const nuevaPelicula = new Pelicula({
+    //             nombre : nombre,
+    //             director : director,
+    //             URL_Imagen : URL_Imagen,
+    //             genero : genero,
+    //             sinopsis : sinopsis
+    //         });
+    //         await nuevaPelicula.save();
+    //     }
     
-        return res.status(200).json("Peliculas agregadas correctamente");
-    });
+    //     return res.status(200).json("Peliculas agregadas correctamente");
+    // });
 
-    // try {
-    //     const {nombre, director, imgUrl, genero, sinopsis} = req.body;
-    //     const nuevaPelicula = new Pelicula({nombre: nombre, director: director, imgUrl: imgUrl, genero: genero, sinopsis: sinopsis});
+    try {
+        const {nombre, director, imgUrl, genero, sinopsis} = req.body;
+        const nuevaPelicula = new Pelicula({nombre: nombre, director: director, imgUrl: imgUrl, genero: genero, sinopsis: sinopsis});
 
-    //     await nuevaPelicula.save();
-    //     await res.status(200).json("Pelicula creada correctamente");
+        await nuevaPelicula.save();
+        await res.status(200).json("Pelicula creada correctamente");
 
-    // } catch(err) {
-    //     console.log(err);
-    //     return res.sendStatus(500);
-    // }
+    } catch(err) {
+        console.log(err);
+        return res.sendStatus(500);
+    }
 
 };
 
@@ -77,9 +78,6 @@ indexController.borrarPelicula = async (req, res) => {
     try {
         
         await Pelicula.findByIdAndDelete(req.params.id);
-        
-        //FALTA QUE DESPUES DE BORRAR PIDAMOS NUEVAMENTE EL LISTADO DE PELICULAS
-        
         return res.status(200).json("Pelicula borrada correctamente");
         
     } catch(err) {

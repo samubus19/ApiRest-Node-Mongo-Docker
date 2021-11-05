@@ -23,7 +23,7 @@ indexController.obtenerPeliculas = async(req, res) => {
 indexController.obtenerPeliculaPorNombre = async (req, res) => {
 
     try {
-    const pelicula = await Pelicula.find({'nombre': {'$regex': req.params.nombre , '$options': 'i'}});
+        const pelicula = await Pelicula.find({'nombre': {'$regex': req.params.nombre , '$options': 'i'}});
         await console.log(pelicula);
         if(pelicula) {
             return res.status(200).json(pelicula);
@@ -42,7 +42,7 @@ indexController.obtenerPeliculaPorNombre = async (req, res) => {
 indexController.obtenerPeliculaPorId = async (req, res) => {
 
     try {
-    const pelicula = await Pelicula.find({_id : req.params.id});
+        const pelicula = await Pelicula.find({_id : req.params.id});
         await console.log(pelicula);
         if(pelicula) {
             return res.status(200).json(pelicula);
